@@ -11,14 +11,14 @@ st.write("your ", age, "years old")
 
 genre = st.radio(
     "What's your computer experiencs",
-    [":rainbow[A LOT]", "***avrige***", " very little"],
+    [":rainbow[A LOT]", "***average***", " very little"],
     index=None,
 )
 
 st.write("You selected:", genre)
 
 color = st.color_picker("Pick A Favorite Color", "#00f900")
-st.write("The current favorite color is", color)
+st.write("Your current favorite color is", color)
 
 d = st.date_input("When's your birthday", datetime.date(2019, 7, 6))
 st.write("Your birthday is:", d)
