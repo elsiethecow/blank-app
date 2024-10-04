@@ -1,8 +1,7 @@
+
 import streamlit as st
 
-
 num1 = st.number_input("Number1  ", value=4)
-
 
 num2 = st.number_input("Number2 ", value=5)
 
