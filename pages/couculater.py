@@ -16,6 +16,6 @@ if st.button("Times"):
 if st.button("minuse"):
     st.write("num1 - num2=", num2-num1)
 
-if st.button("plus")
+if st.button("plus"):
     st.write("num1 + num2=", num2+num1)
 
