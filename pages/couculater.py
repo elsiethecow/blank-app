@@ -1,7 +1,5 @@
 import streamlit as st
 
-st.write("=", num2*num1)
-
 
 num1 = st.number_input("Number1  ", value=4)
 
