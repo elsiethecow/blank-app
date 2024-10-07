@@ -6,7 +6,7 @@ num1 = st.number_input("Number1  ", value=4)
 num2 = st.number_input("Number2 ", value=5)
 
 if st.button("Devide"):
-    st.write("num1 % num2=", num2%num1)
+    st.write("num1 \ num2=", num2%num1)
 
 
 if st.button("Times"):
