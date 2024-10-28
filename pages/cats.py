@@ -5,6 +5,6 @@ import requests
 
 # st.write(# pyjokes.get_joke()
 
-response = requests.get("https://pokeapi.co/api/v2/pokemon/124/")
+response = requests.get("")
 
 st.image(response.json()["sprites"]["front_default"])
