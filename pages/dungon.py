@@ -39,31 +39,14 @@ rooms = [
     },
 ]
 
-st.title("Welcome TO THE DUNGON!☠️")
-st.write("Print out the first room:")
-room = rooms[0]
-st.write(room)
 
-st.write("Print out the 3rd room:")
-room = rooms[2]
-st.write(room)
-
-st.write("Print out the last room:")
-room = rooms[-1]
-st.write(room)
-
-st.write("Print out the treasures in the 2nd room:")
-room = rooms[1]
-st.write(room)
-
-st.write("Print out the monsters in the 4th room:")
-room = rooms[3]
-st.write(room)
-
-st.write("Print out the second secret in the 5th room:")
-room = rooms[4]
-st.write(room)
+st.write("On day I wanderd in to the casle dungons and this is what I found.")
 
 
-
-
+room_num = 1
+for room in rooms:
+    treasures = ", ".join(room["treasures"])
+    monsters = ", ".join(room["monsters"])
+    secrets = ", ".join(room["secrets"])
+    st.write(f"Romm number {room_num}. had a bunch of treasures: {treasures}. had a bunch of monsters: {monsters}. And had secrets: {secrets}.")
+    room_num = room_num + 1
