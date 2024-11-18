@@ -48,5 +48,5 @@ for room in rooms:
     treasures = ", ".join(room["treasures"])
     monsters = ", ".join(room["monsters"])
     secrets = ", ".join(room["secrets"])
-    st.write(f"Romm number {room_num}. had a bunch of treasures: {treasures}. had a bunch of monsters: {monsters}. And had secrets: {secrets}.")
+    st.write(f"Room number {room_num}. had a bunch of treasures: {treasures}. had a bunch of monsters: {monsters}. And had secrets: {secrets}.")
     room_num = room_num + 1
