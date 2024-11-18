@@ -1,5 +1,6 @@
 import folium
 import streamlit as st
+from streamlit_extras.let_it_rain import rain
 
 from streamlit_folium import st_folium
 
@@ -12,10 +13,23 @@ folium.Marker(
 # call to render Folium map in Streamlit
 st_data = st_folium(m, width=725)
 
+
 def example():
     rain(
-        emoji="🎈",
-        font_size=54,
-        falling_speed=5,
+        emoji="✨",
+        font_size=50,
+        falling_speed=2,
         animation_length="infinite",
     )
+
+example()
+
+def bobby():
+    rain(
+        emoji="❄️",
+        font_size=54,
+        falling_speed=10,
+        animation_length="infinite",
+    )
+
+bobby()
