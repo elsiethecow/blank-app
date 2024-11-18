@@ -11,3 +11,12 @@ folium.Marker(
 
 # call to render Folium map in Streamlit
 st_data = st_folium(m, width=725)
+
+def example():
+    rain(
+        emoji="🎈",
+        font_size=54,
+        falling_speed=5,
+        animation_length="infinite",
+    )
+Output (beta)
