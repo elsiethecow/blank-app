@@ -1,10 +1,8 @@
-import pyjokes
+
 import streamlit as st
 import requests
 
+response = requests.get("https://pokeapi.co/api/v2/pokemon/1025/")
 
-# st.write(# pyjokes.get_joke()
-
-response = requests.get("")
-
+st.slider("find you favorit pokemon", 1, 1025, 1)
 st.image(response.json()["sprites"]["front_default"])
