@@ -2,3 +2,4 @@ streamlit
 pyjokes
 requests
 streamlit-folium
+streamlit-extras
