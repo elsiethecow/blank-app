@@ -1,7 +1,7 @@
 import datetime
 import streamlit as st
 
-Hi this is the title
+st.write("Hi this is the title")
 st.title("About you.")
 
 wow = st.text_input("full name", "Name")
